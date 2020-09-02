@@ -14,7 +14,12 @@ class Home extends StatelessWidget {
         child: Text('hello'),
       ),
       appBar: AppBar(
-        title: Text('experiment'),
+        title: Text('Learning Flutter Basics'),
+      ),
+      body: Container(
+        padding: EdgeInsets.all(90),
+        color: Colors.blue[250],
+        child: Text('Birja'),
       ),
     );
   }
